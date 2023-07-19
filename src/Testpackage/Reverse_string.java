@@ -3,8 +3,8 @@ package Testpackage;
 public class Reverse_string {
 
 	public static void main(String[] args) {
-		// reverse a string using String which is immutable
-		
+		// reverse a string 
+				
 		String s="Hello World";
 		String rev="";
 		String rev1="";
