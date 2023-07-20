@@ -21,7 +21,7 @@ public class Reverse_string {
 		StringBuffer sf=new StringBuffer(s);
 		System.out.println(sf.reverse());
 		
-//		reverse a string with space
+//		reverse a string with space with split()
 //		input= hello world, output= olleh dlrow
 		
 		String[] x=s.split(" ");
@@ -32,8 +32,36 @@ public class Reverse_string {
 			}
 			rev1=rev1+" ";
 		}
-//		System.out.print(" ");
 		System.out.println(rev1);
+	
+	
+	//reverse a string with space with split()
+	
+	String q="I love My India";
+	q=q+" ";
+	String r="";
+	String t="";
+	
+	for(int a=0;a<q.length();a++) {
+		char ch=q.charAt(a);	
+		if(ch!=' ') {
+			r=r+ch;
+		}
+		else {
+			for(int b=r.length()-1;b>=0;b--) {
+				t=t+r.charAt(b);
+			      }
+			System.out.print(t +" ");
+			t="";
+			r="";
+		     }
 	}
+	
+	
+	}
+	
+	
+	
+	
 
 }
