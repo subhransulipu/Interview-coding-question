@@ -15,7 +15,6 @@ public class Reverse_string {
 		}
 		System.out.println(rev);
 		
-		
 //		reverse a string with inbuild method
 		
 		StringBuffer sf=new StringBuffer(s);
@@ -34,14 +33,12 @@ public class Reverse_string {
 		}
 		System.out.println(rev1);
 	
-	
 	//reverse a string with space with split()
 	
 	String q="I love My India";
 	q=q+" ";
 	String r="";
 	String t="";
-	
 	for(int a=0;a<q.length();a++) {
 		char ch=q.charAt(a);	
 		if(ch!=' ') {
@@ -56,12 +53,5 @@ public class Reverse_string {
 			r="";
 		     }
 	}
-	
-	
 	}
-	
-	
-	
-	
-
 }
