@@ -53,24 +53,13 @@ public class Input_Output {
             // System.out.println(result);
         }
         System.out.println(result.toString());
-	
-		
+			
 		//Input= "I am in india" and output= "I am at atdia"
         
         String h="I am in india";
         String m=h.replaceAll("in", "at");
         System.out.println(m);
-        
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 }
