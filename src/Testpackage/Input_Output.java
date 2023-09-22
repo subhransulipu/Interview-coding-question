@@ -7,6 +7,7 @@ public class Input_Output {
 		
 		// Input=aabbccdef, output== a=2,b=2,c=2,d=1,e=1,f=1
 		Map<Character,Integer> mp= new HashMap<Character,Integer>();
+	
 		String s="aabbccdaaaabbcccef";
 		char arr[]=s.toCharArray();
 		int val=1;

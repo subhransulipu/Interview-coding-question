@@ -46,7 +46,8 @@ public class Reverse_string {
 		}
 		else {
 			for(int b=r.length()-1;b>=0;b--) {
-				t=t+r.charAt(b);
+				char l=r.charAt(b);
+				t=t+l;
 			      }
 			System.out.print(t +" ");
 			t="";

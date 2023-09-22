@@ -5,7 +5,7 @@ public class count_no_of_char_in_a_string {
 
 	public static void main(String[] args) {
 		
-		Map<Character, Integer> x=new HashMap<Character, Integer>();
+		HashMap<Character, Integer> x=new HashMap<Character, Integer>();
 		String name="subhransu";
 		char ch[]=name.toCharArray();
 		for(char i:ch) {
