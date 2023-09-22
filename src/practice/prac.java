@@ -1,35 +1,72 @@
 package practice;
 
+import java.util.*;
+
 //import snippet.Snippet;
 
 public class prac {
 	public static void main(String[] args) {
 		
-		int arr[]= {2,4,12,32,1,21,33,12,90};
-		int temp=0;
 		
-		for(int k=0;k<arr.length;k++) {
-			for(int j=k+1;j<arr.length;j++) {
-				if(arr[k]<arr[j]) {
-					temp=arr[k];
-					arr[k]=arr[j];
-					arr[j]=temp;
+		String [] s= {"subh","xyz","abc","test","subh"};
+		
+		for(int i=0;i<s.length;i++) {
+			for(int k=i+1;k<s.length;k++) {
+				if(s[i].equals(s[k])) {
+					System.out.println(s[i] + " " +"it is reapeted");
 				}
-			}
+//				else {
+//					System.out.println("it is not reapeted");
+//				}
 		}
-		System.out.println(arr[1]);
 		
-		for(int i:arr) {
-			System.out.print(i+" ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		List<String> s=new ArrayList<String>();
+//		
+//		s.add("subh");
+//		s.add("abcd");
+//		s.add("xyz");
+//		s.add("subh");
+//		s.add("subh");
+//		
+//		
+//		System.out.println(s[2]);
+//		
+//		for(String x:s) {
+//			System.out.println(x);
+//			if(x==x) {
+//				System.out.println("it is repeted");
+//			}
+		
 		}
-//		arr[0]=10;
+		
+		
+		}
 	}
 	
 
 	
 	
 	
-}
+
 	
 
 
